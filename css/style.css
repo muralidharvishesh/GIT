@@ -1,6 +1,6 @@
 body {
   background: #fff;
-  font-family: "Mukta Mahee", arial, sans-serif;
+  font-family: arial, "Mukta Mahee",sans-serif;
   font-weight: 200;
   font-size: 16px;
   line-height: 1.8;
@@ -30,7 +30,7 @@ a:hover {
 
 h1, h2, h3, h4, h5 {
   color: #000;
-  font-family: "Playfair+Display", times, serif;
+  font-family: "Segoe UI","Playfair+Display", times, serif;
 }
 
 .container-fluid {
@@ -109,12 +109,12 @@ textarea.form-control {
 }
 
 .site-navbar nav .menu {
-  font-family: "Playfair+Display", times, serif;
+  font-family: "Century Gothic","Playfair+Display", times, serif;
 }
 
 .site-navbar nav .menu li a {
   color: #000;
-  font-size: 40px;
+  font-size: 30px;
   padding: 5px 10px;
   position: relative;
 }
@@ -123,7 +123,7 @@ textarea.form-control {
   content: "";
   position: absolute;
   bottom: 0;
-  height: 50%;
+  height: 2%;
   width: 0%;
   z-index: -1;
   background: #e61c5d;
@@ -142,14 +142,16 @@ textarea.form-control {
 
 .site-navbar .extra-info a {
   color: #000;
+  font-family: "Century Gothic", "Mukta Mahee", arial, sans-serif;
 }
 
 .site-navbar .extra-info ul li a {
   color: #000;
+  font-family: "Century Gothic", "Mukta Mahee", arial, sans-serif;
 }
 
 .site-navbar .extra-info h3 {
-  font-family: "Mukta Mahee", arial, sans-serif;
+  font-family: "Century Gothic", "Mukta Mahee", arial, sans-serif;
   text-transform: uppercase;
   font-size: 13px;
   letter-spacing: .2em;
@@ -159,6 +161,7 @@ textarea.form-control {
 
 .site-navbar .extra-info p {
   color: #212529;
+  font-family: "Century Gothic", "Mukta Mahee", arial, sans-serif;
 }
 
 .full-height {
@@ -202,10 +205,10 @@ textarea.form-control {
 
 .site-hero-inner .heading {
   font-size: 80px;
-  font-family: "Playfair+Display", times, serif;
+  font-family: "Impact", "Playfair+Display", times, serif;
   color: #fff;
   line-height: 1;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 @media (max-width: 991.98px) {
@@ -216,6 +219,7 @@ textarea.form-control {
 
 .site-hero-inner .sub-heading {
   font-size: 30px;
+  font-family: "Segoe UI", "Playfair+Display", times, serif;
   font-weight: 200;
   color: #fff;
   line-height: 1.5;
@@ -334,8 +338,8 @@ textarea.form-control {
 .visit-section .heading {
   font-size: 15px;
   text-transform: uppercase;
-  font-family: "Mukta Mahee", arial, sans-serif;
-  color: #b3b3b3;
+  font-family: "Century Gothic", "Mukta Mahee", arial, sans-serif;
+  color: #adb5bd;
   letter-spacing: .2em;
   margin-bottom: 30px;
 }
@@ -371,7 +375,8 @@ textarea.form-control {
 
 .heading-serif, .testimonial-section .heading, .slider-section .heading, .blog-post-entry .heading {
   font-size: 80px;
-  font-family: "Playfair+Display", times, serif;
+  font-family: "Segoe UI", "Playfair+Display", times, serif;
+  color: #444343b7;
 }
 
 @media (max-width: 991.98px) {
@@ -449,10 +454,10 @@ textarea.form-control {
 
 .testimonial blockquote p {
   line-height: 1.5;
-  font-family: "Playfair+Display", times, serif;
-  font-size: 20px;
-  color: #000;
-  font-style: italic;
+  font-family: "Century Gothic", "Segoe UI", times, serif;
+  font-size: 14px;
+  color:#adb5bd;
+  font-style: normal;
 }
 
 .testimonial .author-image img {
@@ -461,11 +466,12 @@ textarea.form-control {
 
 .post .media-custom {
   background: #fff;
-  -webkit-transition: .3s all ease;
-  -o-transition: .3s all ease;
-  transition: .3s all ease;
-  -webkit-box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.1);
+  -webkit-transition: .9s all ease;
+  -o-transition: .9s all ease;
+  transition: .9s all ease;
+  -webkit-box-shadow: 0 2px 0px -2px rgba(0, 0, 0, 0.1);
   box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.1);
+  
 }
 
 .post .media-custom:hover, .post .media-custom:focus {
@@ -482,11 +488,11 @@ textarea.form-control {
 }
 
 .post .media-custom .media-body {
-  padding: 10px 30px;
+  padding: 5px 10px 10px 10px;
 }
 
 .post .media-custom h2 {
-  font-size: 26px;
+  font-size: 20px;
 }
 
 .media-custom .meta-post {
@@ -820,7 +826,7 @@ textarea.form-control {
 .side-box .heading, .sidebar-search .heading {
   font-size: 18px;
   margin-bottom: 30px;
-  font-family: "Mukta Mahee", arial, sans-serif;
+  font-family: "Segoe UI", "Mukta Mahee", arial, sans-serif;
 }
 
 .post-list li {
@@ -874,7 +880,7 @@ textarea.form-control {
 
 .contact-section .contact-info p {
   color: white;
-  font-family: "Playfair+Display", times, serif;
+  font-family: "Segoe UI", "Playfair+Display", times, serif;
   font-size: 30px;
   margin-bottom: 30px;
 }
@@ -882,7 +888,7 @@ textarea.form-control {
 .contact-section .contact-info p .d-block {
   font-size: 14px;
   letter-spacing: .2em;
-  font-family: "Mukta Mahee", arial, sans-serif;
+  font-family: "Segoe UI", Mukta Mahee", arial, sans-serif;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.5);
 }
